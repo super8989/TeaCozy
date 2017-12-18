@@ -1,0 +1,97 @@
+* {
+  background-color: black;
+  font-family: helvetica;
+  opacity: 0.9;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 5;
+  background-color: black;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav a {
+  color: white;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+/* Mission */
+#mission {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+  padding-top: 63px;
+  background-image: url("./images/img-mission-background.jpg");
+  margin: auto;
+}
+
+.missionstatement {
+  width: 100%;
+  margin: auto;
+}
+
+/* Tea of the Month */
+#featuredtea  {
+  width: 1000px;
+  margin: auto;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.teaofthemonth.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.monthtea {
+  padding: 10px;
+  display: block;
+}
+
+.monthtea img {
+  height: 200px;
+  width: 300px;
+}
+
+.monthtea span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Locations */
+#locations {
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#locations h2 {
+  background-color: transparent;
+  text-align: center;
+
+}
