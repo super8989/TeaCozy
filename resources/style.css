@@ -1,4 +1,4 @@
-* {
+body {
   background-color: black;
   font-family: helvetica;
   opacity: 0.9;
@@ -50,6 +50,7 @@ header nav a {
 .missionstatement {
   width: 100%;
   margin: auto;
+  background-color: black;
 }
 
 /* Tea of the Month */
@@ -88,10 +89,53 @@ header nav a {
   width: 1200px;
   margin: auto;
   padding-top: 70px;
+  margin-top: 70px;
 }
 
 #locations h2 {
   background-color: transparent;
   text-align: center;
+}
 
+/* Store location */
+
+.storelocation {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: center;
+}
+
+.store {
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.store p {
+  font-size: 22px;
+}
+
+.store h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+#footer h5 {
+  margin-left: 20px;
+  text-align: left;
 }
